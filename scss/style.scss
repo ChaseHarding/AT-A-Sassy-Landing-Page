@@ -1,3 +1,6 @@
+@import "btnConfig";
+@import "config";
+@import "utilities";
 
 * {
   box-sizing: border-box;
@@ -9,9 +12,9 @@ body {
   background-color: $light-color;
   font-family: $font-stack;
   line-height: 1;
-}
-
-img {
+  }
+  
+  img {
   border-radius: 50%;
 }
 
