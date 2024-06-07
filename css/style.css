@@ -57,8 +57,6 @@ a {
 }
 
 .hero .box {
-  display: flex;
-  flex-wrap: wrap;
   background: rgb(0, 0, 35);
 }
 .hero .box nav {
@@ -76,7 +74,7 @@ a {
   white-space: nowrap;
 }
 .hero .box .hero-content {
-  width: 50% h1;
+  display: flex;
 }
 .hero .box img {
   width: 50%;

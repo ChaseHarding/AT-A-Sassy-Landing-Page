@@ -35,8 +35,6 @@ a {
   // 2. nesting (dont forget about the ampersand (&) parent selector!)
   // 3. At-Rules
   .box {
-    display: flex;
-    flex-wrap: wrap;
     background: rgb(0, 0, 35) ;
     nav{
       display: flex;
@@ -61,15 +59,16 @@ a {
       }
     }
   .hero-content {
-    width: 50%
-      h1 {
+    display: flex;
+      div {
 
+        h1 {
+
+        }
+        p {
+
+        }
       }
-      p {
-
-      }
-
-
     }
     img {
       width: 50%;
