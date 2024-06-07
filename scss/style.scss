@@ -37,16 +37,17 @@ a {
       display: flex;
       
       h1{
-
+        color: $color
       }
       ul {
         display: flex;
         gap: 30px;
-        
+
         li{
           list-style-type: none;
+          font-size: 25px;
           a{
-
+            color: $color
           }
         }
       }

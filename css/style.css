@@ -55,12 +55,19 @@ a {
 .hero .box nav {
   display: flex;
 }
+.hero .box nav h1 {
+  color: #fff;
+}
 .hero .box nav ul {
   display: flex;
   gap: 30px;
 }
 .hero .box nav ul li {
   list-style-type: none;
+  font-size: 25px;
+}
+.hero .box nav ul li a {
+  color: #fff;
 }
 .m-1 {
   margin: 1rem;
