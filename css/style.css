@@ -57,6 +57,8 @@ a {
 }
 .hero .box nav h1 {
   color: #fff;
+  font-size: 30px;
+  white-space: nowrap;
 }
 .hero .box nav ul {
   display: flex;
@@ -64,7 +66,8 @@ a {
 }
 .hero .box nav ul li {
   list-style-type: none;
-  font-size: 25px;
+  font-size: 20px;
+  white-space: nowrap;
 }
 .hero .box nav ul li a {
   color: #fff;
