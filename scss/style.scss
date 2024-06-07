@@ -13,6 +13,9 @@ body {
   font-family: $font-stack;
   line-height: 1;
   }
+  h1 {
+    color: $color;
+  }
   
   img {
   border-radius: 50%;
@@ -32,32 +35,33 @@ a {
   // 2. nesting (dont forget about the ampersand (&) parent selector!)
   // 3. At-Rules
   .box {
-    
+    display: flex;
+    flex-wrap: wrap;
+    background: rgb(0, 0, 35) ;
     nav{
       display: flex;
-      
-      
+      justify-content: space-between;
+      width: 100%;
+
       h1{
-        color: $color;
-        font-size: 30px;
-        white-space: nowrap;
+
         
       }
       ul {
         display: flex;
         gap: 30px;
-
         li{
           list-style-type: none;
           font-size: 20px;
           white-space: nowrap;
           a{
-            color: $color
+    
           }
         }
       }
     }
   .hero-content {
+    width: 50%
       h1 {
 
       }
@@ -66,6 +70,9 @@ a {
       }
 
 
+    }
+    img {
+      width: 50%;
     }
   }
 }
