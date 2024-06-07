@@ -12,6 +12,7 @@ body {
   background-color: $light-color;
   font-family: $font-stack;
   line-height: 1;
+  color: $color;
   }
   h1 {
     color: $color;
@@ -35,7 +36,7 @@ a {
   // 2. nesting (dont forget about the ampersand (&) parent selector!)
   // 3. At-Rules
   .box {
-    background: rgb(0, 0, 35) ;
+    @include set-bg($primary-color);
     nav{
       display: flex;
       justify-content: space-between;
@@ -53,7 +54,7 @@ a {
           font-size: 20px;
           white-space: nowrap;
           a{
-    
+            color: $color;
           }
         }
       }
