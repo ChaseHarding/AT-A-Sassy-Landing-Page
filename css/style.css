@@ -52,6 +52,16 @@ a {
   text-decoration: none;
 }
 
+.hero .box nav {
+  display: flex;
+}
+.hero .box nav ul {
+  display: flex;
+  gap: 30px;
+}
+.hero .box nav ul li {
+  list-style-type: none;
+}
 .m-1 {
   margin: 1rem;
 }

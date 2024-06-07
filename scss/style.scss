@@ -32,14 +32,19 @@ a {
   // 2. nesting (dont forget about the ampersand (&) parent selector!)
   // 3. At-Rules
   .box {
-
+    
     nav{
+      display: flex;
       
       h1{
 
       }
       ul {
+        display: flex;
+        gap: 30px;
+        
         li{
+          list-style-type: none;
           a{
 
           }
@@ -47,13 +52,17 @@ a {
       }
     }
   .hero-content {
-  
+
     div {
 
       h1 {
 
       }
       p {
+
+      }
+
+      a {
 
       }
 
